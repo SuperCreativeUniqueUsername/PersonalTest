@@ -12,5 +12,5 @@ void setup() {
 
 void loop() {
   x = analogRead(pinPotent);
-  analogWrite(pinLed, x);
+  analogWrite(pinLed, x/4);
 }
